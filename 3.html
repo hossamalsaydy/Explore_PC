@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروع تطبيق إكسبلورر بي سي</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafb;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            width: 85%;
+            margin: 40px auto;
+            overflow: hidden;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #34495e;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #ecf0f1;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        ul li:hover {
+            background-color: #bdc3c7;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .section-title {
+            border-bottom: 2px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .d{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="Log.jpg" width="250">
+    <p>الفصل الثالث: تحليل المتطلبات والنمذجة</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2 class="section-title">المتطلبات الوظيفية</h2>
+        <ul>
+            <li>تسجيل المستخدمين: إنشاء حساب جديد، تسجيل الدخول/الخروج.</li>
+            <li>إدارة المنتجات: إضافة، تعديل، وحذف المنتجات.</li>
+            <li>سلة التسوق: إضافة المنتجات إلى السلة، تعديل الكمية، حذف المنتجات.</li>
+            <li>إجراءات الدفع: دعم خيارات الدفع المتعددة، تأكيد الطلبات.</li>
+            <li>تقييم ومراجعة المنتجات: ترك تقييمات ومراجعات.</li>
+            <li>بحث متقدم: البحث باستخدام عوامل تصفية متعددة.</li>
+            <li>إدارة الطلبات: متابعة حالة الطلبات، إمكانية إلغاء الطلبات.</li>
+            <li>دعم العملاء: إرسال الاستفسارات.</li>
+            <li>تسجيل حساب التاجر: إنشاء حساب خاص بالتاجر.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 class="section-title">المتطلبات غير الوظيفية</h2>
+        <ul>
+            <li>الأداء: التطبيق سريع الاستجابة.</li>
+            <li>الأمان: حماية بيانات المستخدمين وتشفير معلومات الدفع.</li>
+            <li>قابلية الاستخدام: واجهة مستخدم بسيطة وسهلة التنقل.</li>
+            <li>التوافق: التشغيل على مختلف الأجهزة والمتصفحات.</li>
+            <li>الاستجابة: تصميم متجاوب يتكيف مع أحجام الشاشات المختلفة.</li>
+            <li>التحديث والصيانة: إمكانية تحديث التطبيق بانتظام.</li>
+            <li>التوافر: التطبيق متاح على مدار الساعة.</li>
+        </ul>
+    </section>
+
+    <section class="d">
+        <h2 class="section-title">المخططات</h2>
+        <h3>class diagram</h3>
+        <img src="diagram.jpg" width="150">
+        <h3>المخطط الانسيابي للمستخدم</h3>
+        <img src="User.jpg" width="150">
+        <h3>المخطط الانسيابي للتاجر</h3>
+        <img src="User2.jpg" width="150">
+        
+    </section>
+
+    <section class="d">
+        <h2 class="section-title">نموذج الاستخدام</h2>
+        <h3>use case</h3>
+        <img src="Use.jpg" width="150">
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 مشروع تطبيق إكسبلورر بي سي</p>
+</footer>
+
+</body>
+</html>
